@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://kdd-milets.github.io/milets2021/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="MiLeTS 2021, 7th SIGKDD Workshop on Mining and Learning from Time Series (MiLeTS), co-located with KDD 2021, Singapore">
+    <meta property="og:image" content="https://kdd-milets.github.io/milets2021/img/thumbnail.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="The 7th SIGKDD Mining and Learning from Time Series Workshop">
+    <meta property="og:description" content="7th SIGKDD Workshop on Mining and Learning from Time Series (MiLeTS)">
+
+
+    <title>The 7th Mining and Learning from Time Series Workshop</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="./The 7th Mining and Learning from Time Series Workshop_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="./The 7th Mining and Learning from Time Series Workshop_files/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="./The 7th Mining and Learning from Time Series Workshop_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="./The 7th Mining and Learning from Time Series Workshop_files/css" rel="stylesheet" type="text/css">
+    <link href="./The 7th Mining and Learning from Time Series Workshop_files/css(1)" rel="stylesheet" type="text/css">
+    <link href="./The 7th Mining and Learning from Time Series Workshop_files/css(2)" rel="stylesheet" type="text/css">
+    <link href="./The 7th Mining and Learning from Time Series Workshop_files/css(3)" rel="stylesheet" type="text/css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script type="text/javascript" async="" src="./The 7th Mining and Learning from Time Series Workshop_files/analytics.js.download"></script><script async="" src="./The 7th Mining and Learning from Time Series Workshop_files/js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114495477-1');
+    </script>
+
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden active">
+                        <a href="https://kdd-milets.github.io/milets2021/#page-top"></a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="https://kdd-milets.github.io/milets2021/#introduction">Intro</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="https://kdd-milets.github.io/milets2021/#program">Program</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="https://kdd-milets.github.io/milets2021/#keynote">Keynotes</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="https://kdd-milets.github.io/milets2021/#papers">Accepted Paper &amp; Posters</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="https://kdd-milets.github.io/milets2021/#call">CFP</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="https://kdd-milets.github.io/milets2021/#dates">Dates</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="https://kdd-milets.github.io/milets2021/#organization">Organizers</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="https://kdd-milets.github.io/milets2021/#program_committee">PC</a>
+                    </li>
+                    <li>
+                        <a href="https://kdd-milets.github.io/milets2020/" target="_blank">MiLeTS '20</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text" style="color:white;">
+
+                <div class="intro-heading">7th SIGKDD Workshop on <br>Mining and Learning from Time Series (MiLeTS)</div>
+                <div class="intro-lead-in">Held in conjunction with <a href="http://www.kdd.org/kdd2021/" target="_blank">KDD'21</a><br> Aug 15th, 2021 - Virtual Conference
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="introduction" style="padding-top: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Introduction</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+            <div class="row text-justify">
+                <div class="col-md-12">
+                    <p class="large text-muted">
+                        Time series data are ubiquitous. In domains as diverse as finance, retail, entertainment, transportation and health care, we observe a fundamental shift away from parsimonious, infrequent measurement to nearly continuous monitoring and recording. Recent
+                        advances in diverse sensing technologies, ranging from remote sensors to wearables and social sensing, are generating a rapid growth in the size and complexity of time series archives. Thus, although time series analysis has been
+                        studied extensively, its importance only continues to grow. What is more, modern time series data pose significant challenges to existing techniques (e.g., irregular sampling in hospital records and spatiotemporal structure in
+                        climate data). Finally, time series mining research is challenging and rewarding because it bridges a variety of disciplines and demands interdisciplinary solutions. Now is the time to discuss the next generation of temporal mining
+                        algorithms. The focus of MiLeTS workshop is to synergize the research in this area and discuss both new and open problems in time series analysis and mining. The solutions to these problems may be algorithmic, theoretical, statistical,
+                        or systems-based in nature. Further, MiLeTS emphasizes applications to high impact or relatively new domains, including but not limited to biology, health and medicine, climate and weather, road traffic, astronomy, and energy.
+                        <br> The MiLeTS workshop will discuss a broad variety of topics related to time series, including:
+                    </p>
+
+                    <ul class="large text-muted">
+                        <li>Time series pattern mining and detection, representation, searching and indexing, classification, clustering, prediction, forecasting, and rule mining.
+                        </li>
+                        <li>Time series with special structure: spatiotemporal (e.g., traffic speeds at different locations), relational (e.g., patients with similar diseases), hierarchical, etc.
+                        </li>
+                        <li>Time series with sparse or irregular sampling, missing values at and not at random, and special types of measurement noise or bias.
+                        </li>
+                        <li>Time series that are multivariate, high-dimensional, heterogeneous, etc., or that possess other atypical properties.
+                        </li>
+                        <li>Time series analysis using less traditional approaches, such as deep learning and subspace clustering.</li>
+                        <li>Privacy preserving time series mining and learning.</li>
+                        <li>Online, high-speed learning and mining from streaming time series.</li>
+                        <li>Uncertain time series mining.</li>
+                        <li>Applications to high impact or relatively new time series domains, such as health and medicine, road traffic, and air quality.
+                        </li>
+                        <li>New, open, or unsolved problems in time series analysis and mining.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Section -->
+    <section id="program" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Schedule</h2>
+                    <h3 class="section-subheading text-muted">
+                        8:00 AM - 5:00 PM, August 15th, 2021, Pacific Time<br>
+                    </h3>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-1 text-left">
+                    &nbsp;
+                </div>
+                <div class="col-lg-10 text-left ">
+                    <h3>MORNING SESSION (Pacific Time)</h3>
+                    <p>08:00-08:10 Opening remarks</p>
+                    <p>08:10-09:10 Keynote Talk</p>
+                    <ul>
+                        <li><strong>Deep Learning Data-driven approaches for Epidemic Forecasting</strong>, <em>Aditya Prakash</em></li>
+                    </ul>
+                    <p>9:10-10:30 Contributed Talks</p>
+                    <ul>
+                        <li>
+                            <strong>RLAD: Time Series Anomaly Detection through ReinforcementLearning and Active Learning</strong>. Tong Wu and Jorge Ortiz</li>
+                        <li>
+                            <strong>Personalized and Environment-Aware Battery Prediction for Electric Vehicles</strong>. Dongyue Li, Guangyu Li, Bo Jiang, Zhengping Che and Yan Liu</li>
+                        <li>
+                            <strong>Exploring Generative Data Augmentation in Multivariate Time Series Forecasting : Opportunities and Challenges</strong>. Ankur Debnath, Govind Waghmare, Hardik Wadhwa, Siddhartha Asthana and Ankur Arora</li>
+                        <li>
+                            <strong>Short Text Clustering in Continuous Time Using Stacked Dirichlet-Hawkes Process with Inverse Cluster Frequency Prior</strong>. Avirup Saha and Balaji Ganesan
+                        </li>
+
+                        <li>
+                            <strong>TE-ESN: Time Encoding Echo State Network for Prediction Based on Irregularly Sampled Time Series Data</strong>. Chenxi Sun, Shenda Hong, Moxian Song and Hongyan Li</li>
+                        <li>
+                            <strong>Learning Robust Representations using a Change Point Framework</strong>. Ame Osotsi and Qunhua Li</li>
+                        <li>
+                            <strong>Low-Rank Autoregressive Tensor Completion for Spatiotemporal Traffic Data Imputation</strong>. Xinyu Chen, Mengying Lei, Nicolas Saunier and Lijun Sun</li>
+                        <li>
+                            <strong>Improving COVID-19 Forecasting using eXogenous Variables</strong>. Mohammadhossein Toutiaee, Xiaochuan Li, Yogesh Chaudhari, Shophine Sivaraja, Aishwarya Venkataraj, Indrajeet Javeri, Yuan Ke, Ismailcem Arpinar, Nicole
+                            Lazar and John Miller
+                        </li>
+                    </ul>
+                    <p>10:30-11:00 Coffee Break</p>
+                    <p>11:00-12:00 Keynote Talk</p>
+                    <ul>
+                        <li><strong>Modeling raw, messy time series data with latent stochastic differential equations</strong>, <em>David Duvenaud</em></li>
+                    </ul>
+
+                    <p>12:00-13:00 Lunch Break</p>
+
+                    <h3>AFTERNOON SESSION (Pacific Time)</h3>
+                    <p>13:00-14:00 Keynote Talk</p>
+                    <ul>
+                        <li><strong>Irrational Exuberance: Why we should not believe 99% of papers on Time Series Anomaly Detection</strong>, <em>Eamonn Keogh</em></li>
+                    </ul>
+                    <p>14:00-14:30 Poster Spotlights</p>
+                    <p>14:30-16:00 Coffee Break &amp; Poster Session</p>
+                    <!-- <p>15:00-16:00 Poster Session</p> -->
+                    <p>16:00-16:50 Keynote Talk</p>
+                    <ul>
+                        <li><strong>On the Interface between Optimal Transport and Time Series</strong>, <em>Marco Cuturi</em></li>
+                    </ul>
+
+                    <p>16:50-17:00 Concluding Remarks</p>
+                </div>
+
+                <div class="col-lg-1 text-left">
+                    &nbsp;
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Keynote Section -->
+
+    <section id="keynote">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Speakers</h2>
+                </div>
+
+            </div>
+
+            <!-- Aditya Prakash -->
+            <div class="row speakers">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="https://www.cc.gatech.edu/~badityap/" target="_blank">
+                            <img src="./The 7th Mining and Learning from Time Series Workshop_files/aditya_prakash.jpg" style="height: 240px; width:240px;" class="img-responsive img-circle" alt="B. Aditya Prakash">
+                        </a>
+                        <h4><a href="https://www.cc.gatech.edu/~badityap/" target="_blank">B. Aditya Prakash</a></h4>
+                        <p class="text-muted">Associate Professor<br>Georgia Institute of Technology</p>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-8 text-justify">
+                    <h3> Deep Learning Data-driven approaches for Epidemic Forecasting </h3>
+                    <p>
+                        The devastating impact of the currently unfolding global COVID-19 pandemic and those of the Zika, SARS, MERS, and Ebola outbreaks over the past decade has sharply illustrated our enormous vulnerability to emerging infectious diseases. There are many questions
+                        that are being studied by epidemiologists and public officials during these outbreaks. Building on our prior work, we have been pursuing multiple activities amidst the COVID-19 pandemic in the United States, collaborating with
+                        partners in academia, industry and public health agencies, from award-winning work on helping forecast pandemic trajectories (also shown on the CDC website) to designing more localized and less burdensome campus interventions.
+                        In this talk, I will briefly give an overview of our recent research in designing well calibrated, robust, accurate and interpretable deep learning models for epidemic forecasting, illustrating the important role data science and
+                        machine learning have to play for pandemic prevention and prediction.
+                    </p>
+                    <p>
+                        <b>Bio</b><br> B. Aditya Prakash is an Associate Professor in the College of Computing at the Georgia Institute of Technology (“Georgia Tech”). He received a Ph.D. from the Computer Science Department at Carnegie Mellon University
+                        in 2012, and a B.Tech (in CS) from the Indian Institute of Technology (IIT) -- Bombay in 2007. He has published one book, more than 80 papers in major venues, holds two U.S. patents and has given several tutorials at leading conferences.
+                        His work has also received multiple best-of-conference, best paper and travel awards. His research interests include Data Science, Machine Learning and AI, with emphasis on big-data problems in large real-world networks and time-series,
+                        with applications to computational epidemiology/public health, urban computing, security and the Web. Tools developed by his group have been in use in many places including ORNL, Walmart and Facebook. He has received several awards
+                        such as a Facebook Faculty Award, the NSF CAREER award and was named as one of ‘AI Ten to Watch’ by IEEE. His work has also won awards in multiple data science challenges (e.g the Facebook COVID19 Symptom Challenge) and been highlighted
+                        by several media outlets/popular press like FiveThirtyEight.com. He is also a member of the infectious diseases modeling MIDAS network and core-faculty at the Center for Machine Learning (ML@GT) and the Institute for Data Engineering
+                        and Science (IDEaS) at Georgia Tech. Aditya’s Twitter handle is @badityap.
+                </p></div>
+            </div>
+
+            <!-- David Duvenaud -->
+            <div class="row speakers">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="http://www.cs.toronto.edu/~duvenaud/" target="_blank">
+                            <img src="./The 7th Mining and Learning from Time Series Workshop_files/david_duvenaud.jpg" style="height: 240px; width:240px;" class="img-responsive img-circle" alt="David Duvenaud">
+                        </a>
+                        <h4><a href="http://www.cs.toronto.edu/~duvenaud/" target="_blank">David Duvenaud</a></h4>
+                        <p class="text-muted"> Assistant Professor<br>University of Toronto</p>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-8 text-justify">
+                    <h3>Modeling raw, messy time series data with latent stochastic differential equations</h3>
+                    <p>
+                        Much real-world data is sampled at irregular intervals, but most time series models require regularly-sampled data. Continuous-time models address this problem, but until now only deterministic models (based on ordinary differential equations) or linear-Gaussian
+                        models were efficiently trainable with millions of parameters. We construct a scalable algorithm for computing gradients through samples from stochastic differential equations (SDEs), and for gradient-based stochastic variational
+                        inference in function space, all with the use of adaptive black-box SDE solvers. This allows us to fit a new family of richly-parameterized distributions over time series, in which neural networks can parameterize both dynamics
+                        and likelihoods. We demonstrate these latent SDEs on motion capture data, and provide an open-source PyTorch library for fitting large SDE models.
+                        <br><a href="https://drive.google.com/file/d/1A0BQ_ybncmDbYtDjwXzEihfTN-X5WoOs/view?usp=sharing" target="_blank">[Slides]</a>
+                        <a href="https://arxiv.org/abs/2001.01328" target="_blank">[Paper]</a>
+                        <a href="https://github.com/google-research/torchsde">[Code]</a>
+                        
+                    </p>
+                    <p>
+                        <b>Bio</b><br>David Duvenaud is an assistant professor at the University of Toronto. His research focuses on constructing deep probabilistic models to help predict, explain and design things. For example: Neural ODEs, a kind of
+                        continuous-depth neural network, Automatic chemical design using generative models, Gradient-based hyperparameter tuning, Structured latent-variable models for modeling video, and Convolutional networks on graphs. Previously, He
+                        was a postdoc in the Harvard Intelligent Probabilistic Systems group with Ryan Adams. He did my Ph.D. at the University of Cambridge, where his advisors were Carl Rasmussen and Zoubin Ghahramani. His M.Sc. advisor was Kevin Murphy
+                        at the University of British Columbia. He spent a summer working on probabilistic numerics at the Max Planck Institute for Intelligent Systems, and the two summers before that at Google Research, doing machine vision. He co-founded
+                        Invenia, an energy forecasting and trading firm where he still consult. He is also a founding member of the Vector Institute.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Eamonn Keogh -->
+            <div class="row speakers">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="https://www.cs.ucr.edu/~eamonn/" target="_blank">
+                            <img src="./The 7th Mining and Learning from Time Series Workshop_files/eamonn.jpg" style="height: 240px; width:240px;" class="img-responsive img-circle" alt="Eamonn Keogh">
+                        </a>
+                        <h4><a href="https://www.cs.ucr.edu/~eamonn/" target="_blank">Eamonn Keogh</a></h4>
+                        <p class="text-muted"> Distinguished Professor <br>University of California - Riverside</p>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-8 text-justify">
+                    <h3>Irrational Exuberance: Why we should not believe 99% of papers on Time Series Anomaly Detection
+                    </h3>
+                    <p>
+                        In the last five years there has been an explosion of paper on time series anomaly detection (TSAD) appearing in all the top conferences. In this talk I will make a surprising claim. Almost all such papers suffer from various flaws, including: Testing
+                        on deeply flawed datasets, use of inappropriate measures of success, non-reproducible experiments, unjustified complexity, and ignoring competitive decades-old methods. I will demonstrate that because of these flaws, we should
+                        not believe the claims of most papers on time series anomaly detection. Rather than a completely pessimistic talk, I will take this opportunity to release a new set of 250 benchmark datasets and guidelines that will go some way
+                        to mitigating the problems. <br>
+                        <a href="https://kdd-milets.github.io/milets2021/slides/Irrational%20Exuberance_Eammon_Keogh.pdf" target="_blank">[Slides]</a>
+                    </p>
+                    <p>
+                        <b>Bio</b><br>Eamonn Keogh is a Distinguished Professor of Computer Science at the University of California Riverside. With his students, he invented many of the most commonly used time series primitives, including Shapelets, Discords,
+                        Motifs, SAX, PAA, LB_keogh and the Matrix Profile. He has won at least one best paper award in the major data mining conferences (SIGMOD, SIGKDD, ICDM, SDM) and his h-index of 100 reflects the significant amount of citations his
+                        work has attracted.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Marco Cuturi -->
+            <div class="row speakers">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="https://marcocuturi.net/" target="_blank">
+                            <img src="./The 7th Mining and Learning from Time Series Workshop_files/marco_cuturi.jpg" style="height: 240px; width:240px;" class="img-responsive img-circle" alt="Marco Cuturi">
+                        </a>
+                        <h4><a href="https://marcocuturi.net/" target="_blank">Marco Cuturi</a></h4>
+                        <p class="text-muted">Professor <br>CREST - ENSAE, Institut Polytechnique de Paris, Google Brain</p>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-8 text-justify">
+                    <h3>On the Interface between Optimal Transport and Time Series </h3>
+                    <p>
+                        I will start this talk with a short intro to optimal transport theory, and mention a few interesting areas at the intersection of both optimal transport and time series. I will describe in more detail the JKO proximal gradient descent scheme and show
+                        how it can be used to model time series of snapshots of populations (joint work with Charlotte Bunne, Laetitia Papaxanthos and Andreas Krause) and also the Wasserstein DTW discrepancy for such time series.
+                    </p>
+                    <p><b>Bio</b><br> Marco Cuturi joined Google Brain, in Paris, in October 2018. He graduated from ENSAE (2001), ENS Cachan (Master MVA, 2002) and holds a PhD in applied maths obtained in 2005 at Ecole des Mines de Paris. He worked as a
+                        post-doctoral researcher at the Institute of Statistical Mathematics, Tokyo, between 11/2005 and 03/2007. He worked in the financial industry between 04/2007 and 09/2008. After working at the ORFE department of Princeton University
+                        between 02/2009 and 08/2010 as a lecturer, he was at the Graduate School of Informatics of Kyoto University between 09/2010 and 09/2016 as a tenured associate professor. He then joined ENSAE, the french national school for statistics
+                        and economics, in 9/2016, where he still teaches. His recent proposal to solve optimal transport using an entropic regularization has re-ignited interest in optimal transport and Wasserstein distances in the machine learning community.
+                        His work has recently focused on applying that loss function to problems involving probability distributions, e.g. topic models / dictionary learning for text and images, parametric inference for generative models, regression with
+                        a Wasserstein loss and probabilistic embeddings for words.
+                    </p>
+                </div>
+            </div>
+
+
+
+
+            <!-- <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3 class="section-subheading text-muted">More keynote speakers will be announced ...</h3>
+            </div>
+        </div> -->
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Accepted Papers Section -->
+    <section id="papers" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Accepted Papers</h2>
+                    <!--h3 class="section-heading">TBA</h3> -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-1 text-justify">
+                    &nbsp;
+                </div>
+                <div class="col-lg-10 text-justify">
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_2.pdf" target="_blank">RLAD: Time Series Anomaly Detection through ReinforcementLearning and Active Learning</a> Tong Wu and Jorge Ortiz.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_4.pdf" target="_blank">Personalized and Environment-Aware Battery Prediction for Electric Vehicles</a> Dongyue Li, Guangyu Li, Bo Jiang, Zhengping Che and Yan Liu.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_7.pdf" target="_blank">Exploring Generative Data Augmentation in Multivariate Time Series Forecasting: Opportunities and Challenges</a> Ankur Debnath, Govind Waghmare, Hardik Wadhwa, Siddhartha Asthana and Ankur Arora.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_8.pdf" target="_blank">Short Text Clustering in Continuous Time Using Stacked Dirichlet-Hawkes Process with Inverse Cluster Frequency Prior</a> Avirup Saha and Balaji Ganesan.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_14.pdf" target="_blank">TE-ESN: Time Encoding Echo State Network for Prediction Based on Irregularly Sampled Time Series Data</a> Chenxi Sun, Shenda Hong, Moxian Song and Hongyan Li.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_20.pdf" target="_blank">Learning Robust Representations using a Change Point Framework</a> Ame Osotsi and Qunhua Li.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_23.pdf" target="_blank">Low-Rank Autoregressive Tensor Completion for Spatiotemporal Traffic Data Imputation</a> Xinyu Chen, Mengying Lei, Nicolas Saunier and Lijun Sun.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_24.pdf" target="_blank">Improving COVID-19 Forecasting using eXogenous Variables</a> Mohammadhossein Toutiaee, Xiaochuan Li, Yogesh Chaudhari, Shophine Sivaraja, Aishwarya Venkataraj, Indrajeet Javeri, Yuan Ke, Ismailcem Arpinar, Nicole Lazar and John Miller.
+                    </p>
+                </div>
+                <div class="col-lg-1 text-justify">
+                    &nbsp;
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section id="posters" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Accepted Posters</h2>
+                    <!-- <h3 class="section-heading">TBA</h3> -->
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-1 text-justify">
+                    &nbsp;
+                </div>
+                <div class="col-lg-10 text-justify">
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_5.pdf" target="_blank">Visual Time Series Forecasting: An Image-driven Approach</a> Naftali Cohen, Srijan Sood, Zhen Zeng, Tucker Balch and Manuela Veloso.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_9.pdf" target="_blank">Multi-Window-Finder: Domain Agnostic Window Size for Time Series Data</a> Shima Imani, Alireza Abdoli, Ali Beyram, Azam Imani and Eamonn Keogh.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_10.pdf" target="_blank">Detection and clustering of lead-lag networks for multivariate time series with an application to financial markets</a> Stefanos Bennett, Mihai Cucuringu and Gesine Reinert.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_12.pdf" target="_blank">Temporal Progression: A case study in Porcine Survivability through Hemostatic Nanoparticles</a> Chhaya K, Nuzhat Maisha, Leasha J Schaub, Jacob Glaser, Erin Lavik and Vandana Janeja.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_13.pdf" target="_blank">Recurrent Attentive Kernel Learning for Shark Activity Recognition</a> Matthew Buchholz, Wenlu Zhang, Emily N. Meese, Yu Yang, Christopher G. Lowe and Hen-Geul Yeh.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_15.pdf" target="_blank">HIVE-COTE 2.0: a new meta ensemble for time series classification</a> Matthew Middlehurst, James Large, Michael Flynn, Jason Lines, Aaron Bostrom and Anthony Bagnall.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_16.pdf" target="_blank">Aggregate Learning for Mixed-Frequency Data</a> Daisuke Moriwaki, Takamichi Toda and Kazuhiro Ota.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_18.pdf" target="_blank">Multivariate time series forecasting with diffusion kernels: Freeway traffic prediction</a> Semin Kwak, Nikolasa Geroliminis and Pascal Frossard.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_19.pdf" target="_blank">Time Series Features for Classification of Contaminated Cell Cultures</a> Laura Tupper, Charles Keese and David Matteson.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_21.pdf" target="_blank">Actionable Insights in Multivariate Time-series for Urban Analytics</a> Anika Tabassum, Supriya Chinthavali, Varisara Tansakul and B. Aditya Prakash.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_25.pdf" target="_blank">Forecasting COVID-19 Counts At A Single Hospital: A Hierarchical Bayesian Approach</a> Alexandra Lee, Panagiotis Lymperopoulos, Joshua T. Cohen, John B. Wong and Michael Hughes.
+                    </p>
+
+
+                    <!-- End Poster List -->
+
+                </div>
+                <div class="col-lg-1 text-justify">
+                    &nbsp;
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Call for Papers Section -->
+    <section id="call">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Call for Papers</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+            <div class="row text-justify">
+                <div class="col-md-12">
+                    <p class="large text-muted">
+                        Submissions should follow the <a href="https://kdd.org/kdd2021/calls/view/call-for-research-track-papers">SIGKDD
+                    formatting requirements</a> (unless otherwise stated) and will be evaluated using the <a href="https://kdd.org/kdd2021/calls/view/call-for-research-track-papers">SIGKDD
+                    Research Track evaluation criteria</a>. Preference will be given to papers that are reproducible, and authors are encouraged to share their data and code publicly whenever possible. Submissions are strongly recommended to be <b>no more than 4 pages</b>,
+                        excluding references or supplementary materials (all in a single pdf). The appropriateness of using additional pages over the recommended length will be judged by reviewers. All submissions must be in pdf format using the workshop
+                        template (<a href="https://kdd-milets.github.io/milets2021/template/sample-latex-milets21.zip" target="_blank">latex</a>,
+                        <a href="https://kdd-milets.github.io/milets2021/template/word-template-anonymous.docx" target="_blank">word</a>). Submissions will be managed via the MiLeTS 2021 EasyChair website: <a href="https://easychair.org/conferences/?conf=milets2021" target="_blank">https://easychair.org/conferences/?conf=milets2021</a>.
+                    </p>
+
+                    <p class="large text-muted">
+                        <b>Note on <i>open problem</i> submissions:</b> In order to promote new and innovative research on time series, we plan to accept a small number of high quality manuscripts describing <i>open
+                    problems</i> in time series analysis and mining. Such papers should provide a clear, detailed description and analysis of a new or open problem that poses a significant challenge to existing techniques, as well as a thorough empirical
+                        investigation demonstrating that current methods are insufficient.
+                    </p>
+                    <p class="large text-muted">
+                        <b> COVID-19 Time Series Analysis Special Track:</b> The COVID-19 pandemic is impacting almost everyone worldwide and is expected to have life-altering short and long-term effects. There are many potential applications of time
+                        series analysis and mining that can contribute to understanding of this pandemic. We encourage submission of high quality manuscripts describing original problems, time series datasets, and novel solutions for time series analysis
+                        and forecasting of COVID-19.
+                    </p>
+
+                    <p class="large text-muted">
+                        The review process is single-round and double-blind (submission files have to be anonymized). Concurrent submissions to other journals and conferences are acceptable. Accepted papers will be presented as posters during the workshop and list on the website
+                        (non-archival/without proceedings). Besides, a small number of accepted papers will be selected to be presented as contributed talks.
+                    </p>
+
+                    <p class="large text-muted">
+                        Any questions may be directed to the workshop e-mail address: <a href="mailto:kdd.milets@gmail.com">kdd.milets@gmail.com</a>.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Dates Section -->
+    <section id="dates" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Key Dates</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-left">
+                    &nbsp;
+                </div>
+                <div class="col-lg-8 text-left">
+                    <div class="col-md-12">
+                        <!--<p class="large text-muted">-->
+                        <!--<b>Paper Submission Deadline:</b> <strike class="text-muted">TBD</strike>-->
+                        <!--</p>-->
+                        <p class="large text-muted">
+                            <b>Paper Submission Deadline:</b>
+                            <span style="text-decoration: line-through;" class="text-muted">May 20th</span> June 1st, 2021, 11:59PM Alofi Time
+                        </p>
+                        <p class="large text-muted">
+                            <b>Author Notification:</b> <span>July 2nd, 2021</span>
+                        </p>
+                        <p class="large text-muted">
+                            <b>Camera Ready Version:</b> July 16th, 2021
+                        </p>
+                        <p class="large text-muted">
+                            <b>Workshop:</b> August 15th, 2021 8:00 AM - 5:00PM Pacific Time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organization Section -->
+    <section id="organization">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center" style="padding-bottom: 20px;">
+                    <h2 class="section-heading">Workshop Organizers &amp; Steering Committee</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-1">
+                    &nbsp;
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="./The 7th Mining and Learning from Time Series Workshop_files/sanjay.png" class="img-responsive img-circle" alt="">
+                        <h4><a href="https://sanjayp.is.umbc.edu/">Sanjay Purushotham</a></h4>
+                        <p class="text-muted">University of Maryland, Baltimore County</p>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    &nbsp;
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="./The 7th Mining and Learning from Time Series Workshop_files/yaguangli.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="https://liyaguang.github.io/">YaGuang Li</a></h4>
+                        <p class="text-muted">Google Research, Brain Team</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                    &nbsp;
+                </div>
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="./The 7th Mining and Learning from Time Series Workshop_files/zhengping.png" class="img-responsive img-circle" alt="">
+                        <h4><a href="https://chezhengping.xyz/">Zhengping Che</a></h4>
+                        <p class="text-muted">Didi Chuxing</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-1">
+                    &nbsp;
+                </div>
+
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="./The 7th Mining and Learning from Time Series Workshop_files/eamonn.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="http://www.cs.ucr.edu/~eamonn/">Eamonn Keogh</a></h4>
+                        <p class="text-muted">University of California Riverside</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                    &nbsp;
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="./The 7th Mining and Learning from Time Series Workshop_files/yanliu.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="http://www-bcf.usc.edu/~liu32/">Yan Liu</a></h4>
+                        <p class="text-muted">University of Southern California</p>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-2">
+                    &nbsp;
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="./The 7th Mining and Learning from Time Series Workshop_files/mueen.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="http://www.cs.unm.edu/~mueen/">Abdullah Mueen </a></h4>
+                        <p class="text-muted">University of New Mexico</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-1">
+                    &nbsp;
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section id="program_committee">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Program Committee</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <ul class="large">
+                        <li>Souhaib Ben Taieb, University of Mons</li>
+                        <li>Wei Cao, Microsoft Research</li>
+                        <li>Yuzhou Chen, Southern Methodist University</li>
+                        <li>Runpeng Cui, Tsinghua University</li>
+                        <li>Jilin Hu, Aalborg University</li>
+                        <li>Bo Jiang, Didi Chuxing</li>
+                        <li>Xiang Li, Massachusetts General Hospital</li>
+                        <li>Abhishek Mukherji, Accenture Inc.</li>
+                        <li>Minh Nguyen, University of Southern California</li>
+                        <li>Rajat Sen, Google Inc.</li>
+                        <li>Sungyong Seo, Google Inc.</li>
+                        <li>Xingjian Shi, The Hong Kong University of Science and Technology</li>
+                        <li>Qingsong Wen, Alibaba DAMO Academy</li>
+                        <li>Chin-Chia Michael Yeh, Visa Research</li>
+                        <li>Dalin Zhang, Aalborg University</li>
+                        <li>Jiayu Zhou, Michigan State University</li>
+                    </ul>
+                </div>
+                <div class="col"></div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- jQuery -->
+    <script src="./The 7th Mining and Learning from Time Series Workshop_files/jquery.js.download"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./The 7th Mining and Learning from Time Series Workshop_files/bootstrap.min.js.download"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="./The 7th Mining and Learning from Time Series Workshop_files/jquery.easing.min.js.download"></script>
+    <script src="./The 7th Mining and Learning from Time Series Workshop_files/classie.js.download"></script>
+    <script src="./The 7th Mining and Learning from Time Series Workshop_files/cbpAnimatedHeader.js.download"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="./The 7th Mining and Learning from Time Series Workshop_files/contact_me.js.download"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="./The 7th Mining and Learning from Time Series Workshop_files/agency.js.download"></script>
+
+
+
+
+</body></html>
