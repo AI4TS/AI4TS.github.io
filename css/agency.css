@@ -274,6 +274,18 @@ header {
 }
 
 
+header_1 {
+    height:600px;
+    background-image: url(../img/header_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: #333;
+}
 
 
 header .intro-text {
