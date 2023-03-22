@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://kdd-milets.github.io/milets2021/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="IJCAI'22 Workshop-AI4TS: Artificial Intelligence for Time Series Analysis: Theory,
+    Algorithms, and Applications">
+    <meta property="og:image" content="./img/Facebook.jpg">
+    <meta property="og:type" content="website">
+    <!-- <meta property="og:title" content="WSDM'22 Workshop\\FL4P: Federated Learning for Private Web Search and Data Mining">  -->
+    <!-- <meta property="og:description" content="7th SIGKDD Workshop on Mining and Learning from Time Series (MiLeTS)"> -->
+
+
+    <title>
+        IJCAI'22 Workshop-AI4TS: AI for Time Series Analysis: Theory,
+        Algorithms, and Applications
+    </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="./css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="./css/font-awesome.min.css" rel="stylesheet" >
+    <link href="./css/style.css" rel="stylesheet">
+    <!-- <link href="./css/css(1)" rel="stylesheet" type="text/css">
+    <link href="./css/css(2)" rel="stylesheet" type="text/css">
+    <link href="./css/css(3)" rel="stylesheet" type="text/css"> -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script type="text/javascript" async="" src="./js/analytics.js"></script>
+    <script async="" src="./js/js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114495477-1');
+    </script>
+
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden active">
+                        <a href="https://ai4ts.github.io/"></a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#introduction">Intro</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="#call">CFP</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#dates">Key Dates</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#program">Schedule</a>
+                    </li>
+                    <!-- <li>
+                        <a class="page-scroll" href="">Keynotes</a>
+                    </li> -->
+                    <li>
+                        <a class="page-scroll" href="#Speakers">Speakers</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#organization">Organizers</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#program_committee">Program Committee</a>
+                    </li>
+                   
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav> -->
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text" style="color:white;">
+
+
+                <br>               
+                
+                <div class="intro-heading">IJCAI'22 Workshop</div>
+                <br><br>
+                <br><br>                
+                <div class="intro-heading-large">AI4TS: AI for  Time Series </div>
+                <br><br>
+                <div class="intro-heading-large">Analysis: </div>
+                <br><br>  
+                <br><br>              
+                <div class="intro-heading"> Theory, Algorithms, and Applications  </div>
+                <br><br>
+                <!-- <div class="intro-heading-welcome" >Welcome!</div> -->
+            </div>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="introduction" style="padding-top: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <!-- <h2 class="section-heading">Introduction</h2> -->
+                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+            <div class="row text-justify">
+                <div class="col-md-12" >
+
+                    <p class="large text-muted ">
+                        &nbsp;&nbsp;&nbsp;&nbsp;Time series data are becoming ubiquitous in numerous real
+                        world applications, e.g., IoT devices, healthcare, wearable devices, smart vehicles, financial markets, biological sciences, environmental sciences, etc. Given the availability
+                        of massive amounts of data, their complex underlying structures/distributions, together with the high-performance computing platforms, there is a great demand for developing new
+                        theories and algorithms to tackle some fundamental challenges (e.g., representation, classification, prediction, causal
+                        analysis, etc.) in various types of applications
+
+                        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;The goal of this workshop is to provide a platform for researchers and AI practitioners from both academia and industry to discuss potential research directions, key technical issues, and present solutions to tackle related issues in practical
+                        applications. The workshop will focus on both the theoretical and practical aspects of time series data analysis and aims
+                        to trigger research innovations on theories, algorithms, and applications. We will invite researchers and AI practitioners from the related areas of machine learning, data science,
+                        statistics, econometrics, and many others to contribute to this workshop.</br>
+
+                        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;This workshop encourages submissions of innovative solutions for a broad range of time series analysis problems. Topics of interest include but are not limited to the following: </br>
+                    </p>
+
+                    <ul class="large text-muted">
+
+                        <td style="width: 45%; vertical-align:top"><li> Time series prediction</li></td>
+                        <td  style="width: 45%; vertical-align:top"><li> Classification and clustering</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> Anomaly detection and diagnosis/change point detection</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> Similarity search</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> Time series indexing</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> Pattern discovery</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> Interpretation and explanation</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> Bias and fairness</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> Causal inference</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> Spatio-temporal prediction</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> Predictive maintenance</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> Healthcare</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> Fintech</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> Traffic analysis</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> Weather forecasting</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> Internet of things</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> Machine learning</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> Data Mining</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> Artificial Intelligence</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> AI-inspired approaches for time series similarity search</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> Experimental evaluation and comparison of AI and traditional techniques</li></td>
+                        <td style="width: 45%; vertical-align:top"><li> New benchmarks for time series analysis tasks</li></td>
+
+     
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Call for Papers Section -->
+<section id="call" class="bg-mid-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Call for Papers</h2>
+                <!-- <h3 class="section-subheading text-muted" style="font-size:large">Contact with us: <a href="mailto:fl4pwsdm@gmail.com">fl4pwsdm@gmail.com</a></h3> -->
+            </div>
+        </div>
+        <div class="row text-justify">
+            <div class="col-md-12">
+                 <p class="large text-muted">
+                    Submissions should be 4-6 pages long, excluding references, and follow IJCAI-22 template. Submissions are single-blind and author identity will be revealed to the reviewers. An optional appendix of arbitrary length is allowed and should be put at the end of the paper (after references). 
+                </p>
+
+                <p class="large text-muted">
+                    Accepted papers will be posted on the workshop webpage. We welcome submissions of unpublished papers, including those that are submitted/accepted to other venues if that other venue allows so.
+                </p> 
+                <p class="large text-muted">
+                    <b> Submission link: <a href="https://cmt3.research.microsoft.com/AI4TS2022/">https://cmt3.research.microsoft.com/AI4TS2022/</a>
+                </p>
+
+                <!-- <p class="large text-muted">
+                    The review process is single-round and double-blind (submission files have to be anonymized). Concurrent submissions to other journals and conferences are acceptable. Accepted papers will be presented as posters during the workshop and list on the website
+                    (non-archival/without proceedings). Besides, a small number of accepted papers will be selected to be presented as contributed talks.
+                </p>-->
+
+                <p class="large text-muted">
+                    Any questions may be directed to the workshop e-mail address: <a href="mailto:ai4ts.ijcai@gmail.com">ai4ts.ijcai@gmail.com</a>
+
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+ <!--Key Dates Section -->
+ <section id="dates" class="bg-mid-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Key Dates</h2>
+                <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3--> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-left">
+                &nbsp;
+            </div>
+            <div class="text-left" style="text-align: center;">
+                <div class="col-md-12">
+                    <p class="large text-muted">
+                    <b>Workshop Paper Submission Due Date:</b><span> May 13, 2022</span>
+                    </p>
+
+                    <p class="large text-muted">
+                        <b>Notification of Paper Acceptance:</b> <span> June 3, 2022</span>
+                    </p>
+                    <p class="large text-muted">
+                        <b>Camera-ready Papers Due:</b><span> June 17, 2022</span>
+                    </p>
+                    <p class="large text-muted">
+                        <b>IJCAI-21 Workshops:</b><span> July 24, 2022</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+
+
+<!-- Schedule Section -->
+<section id="program" class="bg-mid-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Schedule</h2>
+                <h3 class="section-subheading text-muted">
+                    9:00 AM - 4:10 PM, July 24th,2022, CEST/Vienna time<br>
+                    <br></br>
+                    Location: Messe Wien Exhibition and Congress Center (Schubert 4)</br>
+                    <br></br>
+                    Zoom Link: <a href="https://uni-sydney.zoom.us/j/86982872150" target="_blank" style="color:RoyalBlue">https://uni-sydney.zoom.us/j/86982872150</a></br>
+                </h3>
+          
+            </div>
+        </div>
+
+        <style type="text/css">
+            table.tableizer-table {
+            font-size: 15px;
+            border: 1px solid #CCC;
+            font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            
+            }
+            .tableizer-table td {
+                padding: 10px;
+                margin: 4px;
+                border: 1px solid #CCC;
+               }
+            .tableizer-table th {
+                background-color: #4682B4;
+                color: #FFF;
+                font-weight: normal;
+                text-align:center
+                }
+        </style>
+        <table class="tableizer-table">
+            <thead><tr class="tableizer-firstrow"><th>Time(UTC+2)</th><th>Speaker</th><th>Title</th></tr></thead><tbody>
+            <tr><td>9:00 am - 9:10 am</td><td><strong>Dr. Hangwei Qian</strong></td><td>Opening remarks</td></tr>
+            <tr><td>9:10 am - 10:00 am</td><td><strong>Dr. Haifeng Chen</strong></td><td>Signals, Structure, and Dynamics:  Unraveling the Unknown in Complex Systems</td></tr>
+            <tr><td>10:00 am - 10:45 am</td><td>Paper presentation 1-4</td><td>
+            <p><a href="CameraReadys\4\CameraReady\RadNet.pdf" target="_blank" style="color:RoyalBlue">RADNET: Incident Prediction in Spatio-Temporal Road Graph Networks Using Traffic Forecasting</a></p>
+            <p><a href="CameraReadys\5\CameraReady\ijcai22-multiauthor.pdf" target="_blank" style="color:RoyalBlue">Expressing Multivariate Time Series as Graphs with Time Series Attention Transformer</a></p>
+            <p><a href="CameraReadys\7\CameraReady\HiMLEdge_AI4TS_Camera-Ready.pdf" target="_blank" style="color:RoyalBlue">HiMLEdge-An Energy-Aware Optimization Framework for Hierarchical Machine Learning in Wireless Sensor Systems at the Edge</a></p>           
+            <p><a href="CameraReadys\10\CameraReady\LETS_GZSL_AI4TS_IJCAI_Final.pdf" target="_blank" style="color:RoyalBlue">LETS-GZSL: A Latent Embedding Model for Time Series Generalized Zero Shot Learning</a></td></tr>
+            <tr><td>10:45 am - 11:15 am</td><td>Coffee break</td><td>&nbsp;</td></tr>
+            <tr><td>11:15 am - 12:05 pm</td><td><strong>Dr. Jan Gasthaus</strong></td><td>Probabilistic Time Series Forecasting: Past, Present, and Future</td></tr>
+            <tr><td>12:05 pm - 12:30 pm</td><td>Paper presentation 5-6</td><td>
+            <p><a href="CameraReadys\11\CameraReady\IJCAI22_Incremental_Volume_Prediction (camera ready).pdf" target="_blank" style="color:RoyalBlue">Incremental Stock Volume Prediction with Gradient Distillation and Diversified Memory Selection</a></p>
+            <p><a href="CameraReadys\13\CameraReady\AI4TS_WORKSHOP.pdf" target="_blank" style="color:RoyalBlue">Towards Safe Autonomy in Hybrid Traffic: The Power of Information Sharing in Detecting Abnormal Human Drivers Behaviors</a></td></tr>
+            <!-- <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr> -->
+            <tr><td>12:30 pm - 2:00 pm</td><td>Lunch</td><td>&nbsp;</td></tr>
+            <tr><td>2:00 pm  - 3:00 pm</td><td><strong>Dr. Kashif Rasul</strong></td><td>Transformers for Time Series Forecasting</td></tr>
+            <tr><td>3:00 pm - 3:30 pm</td><td>Coffee Break</td><td>&nbsp;</td></tr>
+            <tr><td>3:30 pm - 4:06 pm</td><td>Paper presentation 7-9</td><td>
+            <p><a href="CameraReadys\14\CameraReady\AI4TS_Workshop.pdf" target="_blank" style="color:RoyalBlue">Deep-Learning vs Regression: Prediction of Tourism Flow with Limited Data</a></p>
+            <p><a href="CameraReadys\15\CameraReady\ijcai2022_workshop.pdf" target="_blank" style="color:RoyalBlue">DTG-LSTM: A Delaunay Triangulation Graph for Human Trajectory Prediction in Crowd Scenes</a></p>
+            <p><a href="CameraReadys\16\CameraReady\AI4TS@IJCAI_Paper16_CameraReady.pdf" target="_blank" style="color:RoyalBlue">A Wavelet Decomposition based Ensemble Learning Framework for Short-Term Stock Prediction</a></td></tr>
+            <tr><td>4:06 am - 4:10 pm</td><td><strong>Dr. Haifeng Chen</strong></td><td>Closing remarks</td></tr>
+            </tbody></table>
+     
+            <!-- <div class="large  text-left">
+                <table style="margin-left: 30%; font-size: large;">
+                    <tr><td style="width: 50%;">9:00 am - 9:10 am</td><td style="width: 50%;"><strong>Openning remark</strong></td></tr> 
+                    <tr><td>9:10 am - 10:00 am</td><td><strong>Invited speaker 1:  Dr. Haifeng Chen   Title: “Signals, Structure, and Dynamics:  Unraveling the Unknown in Complex Systems”
+                    </strong></td></tr>
+                    <tr><td>10:00 am - 10:36 am</td><td><strong>Paper presentation 1-3</strong></td></tr>
+                    <tr><td>10:36 am - 11:15 am</td><td><strong>Coffee break </strong></td></tr>
+                    <tr><td>11:15 am - 12:05 pm</td><td><strong>Invited speaker 2: Dr. Jan Gasthaus Title: TBA</strong></td></tr>
+                    <tr><td>12:06 pm - 12:42 pm</td><td><strong>Paper presentation 4-6                    </strong></td></tr>
+                    <tr><td>12:42 pm - 2:00 pm</td>><td><strong>Lunch</strong></td></tr>
+                    <tr><td>2:00 pm  - 2:50 pm</td><td><strong>Invited speaker 3: Dr. Kashif Rasul    Title: “Transformers for Time Series Forecasting”                    </strong></td></tr>
+                    <tr><td>2:51 pm - 3:24 pm</td><td><strong>Paper presentation 7-9</strong></td></tr>
+                    <tr><td>3:25 am - 3:30 pm</td><td><strong>Closing remark</strong></td></tr> -->
+                    
+                    <!-- <p>8:45 am - 9:00 am&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>opening remark</strong></p>
+                    <p>9:00 am - 9:45 am &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>keynote speaker 1</strong></p>
+                    <p>9:45 am - 10:30 am &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>contributed talks 1-3</strong></p>
+                    <p>10:30 am - 10:45 am &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>break</strong></p>
+                    <p>10:45 am - 11:30 am &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>contributed talks 4-6</strong></p>
+                    <p>11:30 am - 12:30 pm &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>poster session</strong></p>
+                    <p>12:30 pm - 2:00 pm &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong> lunch break</strong></p>
+                    <p>2:00 pm - 2:45 pm &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong> keynote speaker 2</strong></p>
+                    <p>2:45 pm - 3:30 pm &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>contributed talks 7-9</strong></p> 
+                    <p>3:30 pm - 3:45 pm &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>break</strong></p> 
+                    <p>3:45 pm - 4:30 pm &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>keynote speaker 3</strong></p> 
+                    <p>4:30 pm - 5:30 pm &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>panel discussion</strong></p>  -->
+                </table>
+            
+
+            <div class="col-lg-1 text-left">
+                &nbsp;
+            </div>
+        </div>
+    </div> 
+</section>
+
+    <!-- Speakers Section -->
+
+    <section id="Speakers" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Speakers</h2>
+                </div>
+
+            </div>
+         
+            
+            <div class="row speakers">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="https://haifengchen.gitlab.io/intro/" target="_blank">
+                            <img src="./img/Haifeng_chen.png" style="height: 266px; width:200px;" class="img-responsive img-circle" alt="Haifeng Chen">
+                        </a>
+                        <h4><a href="https://haifengchen.gitlab.io/intro/" target="_blank">Dr. Haifeng Chen</a></h4>
+                        <p class="text-muted">Department Head of Data Science <br>NEC Labs America </p>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-8 text-justify ">
+                    <h3>Dr. Haifeng Chen, NEC Labs America</h3>
+                    <p class="text-muted" style="font-size: 16px;">
+                    <strong>Dr. Haifeng Chen</strong> is heading the Data Science and System Security Department at NEC Laboratories America in Princeton, New Jersey. 
+                    He received the BEng and MEng degrees in automation from Southeast University China, and the PhD degree in computer engineering from Rutgers University in 2004.
+                    He and his team members are working on various topics related to big data analytics, AI, software and system security, smart service and platforms. 
+                    Dr. Chen has served in the program committee for a number of top AI conferences, and has been in the panel of National Science Foundation (NSF) programs. 
+                    He is a member of the school of Systems and Enterprises Advisory Board in Stevens Institute of technology, New Jersey. 
+                    Dr. Chen has co-authored more than a hundred conference/journal publications including the best paper runner-up at SigKDD’16, and has over 70 patents granted. 
+                    Most of his research led to advanced solutions and products for various industrial domains including power plants, satellite, financial, retail, and so on.</p>
+
+                </div>
+
+
+            </div>
+
+            <div class="row speakers">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="https://github.com/jgasthaus" target="_blank">
+                            <img src="https://avatars.githubusercontent.com/u/448761?v=4" style="height: 200px; width:200px;" class="img-responsive img-circle" alt="Jan Gasthaus">
+                        </a>
+                        <h4><a href="https://github.com/jgasthaus" target="_blank">Dr. Jan Gasthaus</a></h4>
+                        <p class="text-muted">Amazon Web Services<br>AWS AI Labs </p>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-8 text-justify ">
+                    <h3>Dr. Jan Gasthaus, Amazon Web Services, AWS AI Labs</h3>
+                    <p class="text-muted" style="font-size: 16px;">
+                    <strong>Dr. Jan Gasthaus</strong>Jan Gasthaus is a Principal Machine Learning Scientist in the Amazon AI Labs, 
+                    working mainly on time series forecasting, anomaly detection, and large-scale probabilistic machine learning. 
+                    He is passionate about developing novel machine learning solutions for addressing challenging business problems with scalable machine learning systems, 
+                    all the way from scientific ideation to productization. 
+                    Prior to joining Amazon, Jan obtained a BS in Cognitive Science from the University of Osnabrueck, an MS in Intelligent Systems from UCL,
+                    and a PhD from the Gatsby Unit, UCL, focusing on Nonparametric Bayesian methods for sequence data.
+                </div>
+
+
+            </div>
+
+            <div class="row speakers">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="https://www.datascience.salon/kashif-rasul/" target="_blank">
+                            <img src="img\Kashif_Rasul.jpg " style="height: 200px; width:200px;" class="img-responsive img-circle" alt="Kashif Rasul">
+                        </a>
+                        <h4><a href="https://www.datascience.salon/kashif-rasul/" target="_blank">Dr. Kashif Rasul</a></h4>
+                        <p class="text-muted">Morgan Stanley
+
+                    </div>
+                </div>
+
+                <div class="col-sm-8 text-justify ">
+                    <h3>Dr. Kashif Rasul, Morgan Stanley</h3>
+                    <p class="text-muted" style="font-size: 16px;">
+                    <strong>Dr. Kashif Rasul</strong> is a Research Scientist at Morgan Stanley where he works on deep learning based time-series forecasting problems. 
+                    He also contributes to open source machine learning software. He studied Mathematics at Monash University in Australia and obtained his PhD from the Free University in Berlin, Germany. </p> 
+
+                </div>
+
+
+            </div>
+              
+
+            
+
+
+               
+
+
+
+    </section>
+
+<!--Accepted Papers Section--->
+  <section id="papers" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Accepted Papers</h2>
+                    <!-- <h3 class="section-heading">TBA</h3> -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-1 text-justify">
+                    &nbsp;
+                </div>
+                <div class="col-lg-10 text-justify">
+                     <p class="row large text-muted">
+                        <a href="CameraReadys\4\CameraReady\RadNet.pdf" target="_blank">* RADNET: Incident Prediction in Spatio-Temporal Road Graph Networks Using
+                            Traffic Forecasting</a></br> &nbsp;Shreshth Tuli, Matthew R. Wilkinson and Chris Kettell.</br>
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="CameraReadys\5\CameraReady\ijcai22-multiauthor.pdf" target="_blank">* Expressing Multivariate Time Series as Graphs with Time Series Attention
+                            Transformer</a></br> &nbsp;William T. Ng, K. Siu, Albert C. Cheung and Michael K. Ng.</br>
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="CameraReadys\7\CameraReady\HiMLEdge_AI4TS_Camera-Ready.pdf" target="_blank">* HiMLEdge-An Energy-Aware Optimization Framework for Hierarchical
+                            Machine Learning in Wireless Sensor Systems at the Edge</a></br> &nbsp;Julio Wissing, Stephan Scheele, Aliya Mohammed, Dorothea Kolossa and Ute Schmid.</br>
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="CameraReadys\10\CameraReady\LETS_GZSL_AI4TS_IJCAI_Final.pdf" target="_blank">* LETS-GZSL: A Latent Embedding Model for Time Series Generalized Zero Shot
+                            Learning</a></br>&nbsp; Sathvik Bhaskarpandit,Priyanka Gupta and Manik Gupta.</br>
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="CameraReadys\11\CameraReady\IJCAI22_Incremental_Volume_Prediction (camera ready).pdf" target="_blank">* Incremental Stock Volume Prediction with Gradient Distillation and Diversified
+                            Memory Selection</a></br>&nbsp; Shicheng Li, Zhiyuan Zhang, Lei Li, Ruihan Bao, Keiko Harimoto and Xu Sun.</br>
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="CameraReadys\13\CameraReady\AI4TS_WORKSHOP.pdf" target="_blank">* Towards Safe Autonomy in Hybrid Traffic: The Power of Information Sharing in
+                            Detecting Abnormal Human Drivers Behaviors</a></br> &nbsp;Jiangwei Wang, Lili Su, Songyang Han, Dongjin Song and Fei Miao. </br>
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="CameraReadys\14\CameraReady\AI4TS_Workshop.pdf" target="_blank">* Deep-Learning vs Regression: Prediction of Tourism Flow with Limited Data</a></br> &nbsp;Julian Lemmel, Zahra Babaiee, Marvin Kleinlehner, Ivan Majic, Philipp
+                        Neubauer, Johannes Scholz, Radu Grosu and Sophie A. (Gruenbacher) Neubauer.</br>
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="CameraReadys\15\CameraReady\ijcai2022_workshop.pdf" target="_blank">* DTG-LSTM: A Delaunay Triangulation Graph for Human Trajectory Prediction
+                            in Crowd Scenes</a></br>&nbsp;Zhimiao Shi and Yao Xiao.</br>
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="CameraReadys\16\CameraReady\AI4TS@IJCAI_Paper16_CameraReady.pdf" target="_blank">* A Wavelet Decomposition based Ensemble Learning Framework for
+                            Short-Term Stock Prediction</a></br>&nbsp;Hieu Nguyen, Jihye Moon, Dongjin Song and Joseph Johnson.</br>
+                    </p>
+                </div>
+                <div class="col-lg-1 text-justify">
+                    &nbsp;
+                </div>
+
+            </div>
+
+        </div>
+    </section> 
+    <!-- <section id="posters" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Accepted Posters</h2>
+                    <h3 class="section-heading">TBA</h3>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-1 text-justify">
+                    &nbsp;
+                </div>
+                <div class="col-lg-10 text-justify">
+
+                  <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_5.pdf" target="_blank">Visual Time Series Forecasting: An Image-driven Approach</a> Naftali Cohen, Srijan Sood, Zhen Zeng, Tucker Balch and Manuela Veloso.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_9.pdf" target="_blank">Multi-Window-Finder: Domain Agnostic Window Size for Time Series Data</a> Shima Imani, Alireza Abdoli, Ali Beyram, Azam Imani and Eamonn Keogh.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_10.pdf" target="_blank">Detection and clustering of lead-lag networks for multivariate time series with an application to financial markets</a> Stefanos Bennett, Mihai Cucuringu and Gesine Reinert.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_12.pdf" target="_blank">Temporal Progression: A case study in Porcine Survivability through Hemostatic Nanoparticles</a> Chhaya K, Nuzhat Maisha, Leasha J Schaub, Jacob Glaser, Erin Lavik and Vandana Janeja.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_13.pdf" target="_blank">Recurrent Attentive Kernel Learning for Shark Activity Recognition</a> Matthew Buchholz, Wenlu Zhang, Emily N. Meese, Yu Yang, Christopher G. Lowe and Hen-Geul Yeh.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_15.pdf" target="_blank">HIVE-COTE 2.0: a new meta ensemble for time series classification</a> Matthew Middlehurst, James Large, Michael Flynn, Jason Lines, Aaron Bostrom and Anthony Bagnall.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_16.pdf" target="_blank">Aggregate Learning for Mixed-Frequency Data</a> Daisuke Moriwaki, Takamichi Toda and Kazuhiro Ota.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_18.pdf" target="_blank">Multivariate time series forecasting with diffusion kernels: Freeway traffic prediction</a> Semin Kwak, Nikolasa Geroliminis and Pascal Frossard.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_19.pdf" target="_blank">Time Series Features for Classification of Contaminated Cell Cultures</a> Laura Tupper, Charles Keese and David Matteson.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_21.pdf" target="_blank">Actionable Insights in Multivariate Time-series for Urban Analytics</a> Anika Tabassum, Supriya Chinthavali, Varisara Tansakul and B. Aditya Prakash.
+                    </p>
+
+                    <p class="row large text-muted">
+                        <a href="https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_25.pdf" target="_blank">Forecasting COVID-19 Counts At A Single Hospital: A Hierarchical Bayesian Approach</a> Alexandra Lee, Panagiotis Lymperopoulos, Joshua T. Cohen, John B. Wong and Michael Hughes.
+                    </p> -->
+ 
+
+                    <!-- End Poster List
+
+                </div>
+                <div class="col-lg-1 text-justify">
+                    &nbsp;
+                </div>
+
+            </div>
+        </div>  -->
+
+    </section>
+
+
+
+
+    <!-- Organization Section -->
+    <section id="organization"  class="bg-mid-gray">
+
+            <div class="row">
+                <div class="col-lg-12 text-center" style="padding-bottom: 20px;">
+                    <h2 class="section-heading">Workshop Organizers</h2>
+                    <h3 class="section-subheading text-muted">The following are arranged in alphabetical order</h3-->
+                </div>
+            </div>
+
+
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-1">
+                        &nbsp;
+                    </div>
+
+                    <div class="col-sm-2">
+                      <div class="team-member">
+                          <img src="https://songdj.github.io/author/dongjin-song/avatar_hu6e41e5dc7954b00808dcbdf5dd84c037_547998_270x270_fill_lanczos_center_2.png" class="img-responsive img-circle" alt="" width="200" height="300">
+                          <h4><a href="https://songdj.github.io/">Dongjin Song</a></h4>
+                          <p class="text-muted">Assistant Professor, University of Connecticut</p>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-2">
+                        &nbsp;
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="team-member">
+                          <img src="./img/Fenlongma.jpg" class="img-responsive img-circle" alt="" width="200" height="300">
+                          <h4><a href="http://personal.psu.edu/ffm5105/">Fenglong Ma</a></h4>
+                          <p class="text-muted"> Assistant Professor<br> Pennsylvania State University</p>
+                      </div>
+
+                    </div>
+                    <div class="col-sm-2">
+                        &nbsp;
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="team-member">
+                        <div class="team-member">
+                            <img src="./img/SP.jpg" class="img-responsive img-circle" alt="" width="200" height="300">
+                            <h4><a href="https://sanjayp.is.umbc.edu/">Sanjay Purushotham 
+                                </a></h4>
+                            <p class="text-muted">Assistant professor</br>University of Maryland Baltimore County</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                        &nbsp;
+                    </div>
+                  </div>
+
+              </div>
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-sm-1">
+                            &nbsp;
+                        </div>
+
+                        <div class="col-sm-2">
+                          <div class="team-member">
+                              <img src="./img/themis (1) (1).jpg" class="img-responsive img-circle" alt="" width="200" height="300">
+                              <h4><a href="https://helios2.mi.parisdescartes.fr/~themisp/">Themis Palpanas</a></h4>
+                              <p class="text-muted">Senior Member</br>the French
+                                University Institute (IUF)</p>
+                          </div>
+
+                        </div>
+
+                        <div class="col-sm-2">
+                            &nbsp;
+                        </div>
+                        <div class="col-sm-2">
+                          <div class="team-member">
+                              <img src="./img/Weicheng.jpg" class="img-responsive img-circle" alt="" width="200" height="300">
+                              <h4><a href="https://chengw07.github.io/">Wei Cheng </a></h4>
+                              <p class="text-muted"> Senior Researcher</br>NEC Labs America</p>
+                          </div>
+
+
+                        </div>
+
+                        <div class="col-sm-2">
+                            &nbsp;
+                        </div>
+                        <div class="col-sm-2">
+                          <div class="team-member">
+                              <img src="./img/Yifeng.jpg" class="img-responsive img-circle" alt="" width="200" height="300"> 
+                              <h4><a href="http://mason.gmu.edu/~ygao12/">Yifeng Gao</a></h4>
+                              <p class="text-muted">Assistant Professor</br>University of Texas Rio Grande
+                                Valley.</p>
+                          </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-1">
+                    &nbsp;
+                </div>
+                <div class="col-sm-2">
+                    &nbsp;
+                </div>
+                <div class="col-sm-2">
+                    &nbsp;
+                </div>
+
+                <div class="col-sm-2">
+                  <div class="team-member">
+                      <img src="./img/YufeiHan.jpg" class="img-responsive img-circle" alt="" width="200" height="300">
+                      <h4><a href="https://scholar.google.com/citations?user=xdCvBg0AAAAJ&hl=en"> Yufei Han</a></h4>
+                      <p class="text-muted">  Senior Research Scientist</br>INRIA France</p>
+                  </div>
+                </div>
+
+                <div class="col-sm-2">
+                    &nbsp;
+                </div>
+
+              </div>
+            </div>
+
+            <!-- <div class="row">
+
+                <div class="col-sm-1">
+                    &nbsp;
+                </div>
+
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="https://media-exp1.licdn.com/dms/image/C5603AQFG11hS5KECVQ/profile-displayphoto-shrink_200_200/0/1611392877869?e=1642636800&v=beta&t=jdVu-7s2de0Vsx_bQFUlDyCMlkhdP62Pgey3VH-N5RY" class="img-responsive img-circle" alt="">
+                        <h4><a href="https://www.linkedin.com/in/yanqing-chen-29030539" target="_blank">Yanqing Chen</a></h4>
+                        <p class="text-muted"> Principal Scientist, JD Technology Silicon Valley R&D Lab</p>
+                    </div>
+                </div>
+
+
+
+                <div class="col-sm-2">
+                    &nbsp;
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="https://cseweb.ucsd.edu/~yuc007/images/yuncong_compressed.JPG" class="img-responsive img-circle" alt="">
+                        <h4><a href="https://cseweb.ucsd.edu/~yuc007/">Yuncong Chen</a></h4>
+                        <p class="text-muted">Research Staff Member, NEC Labs America</p>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-sm-2">
+                    &nbsp;
+                </div>
+
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="https://caiwending.cse.uconn.edu/wp-content/uploads/sites/2888/2019/08/DSC_8595.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="https://caiwending.cse.uconn.edu/">Caiwen Ding</a></h4>
+                        <p class="text-muted">Assistant Professor, University of Connecticut</p>
+                    </div>
+                </div>
+
+
+
+
+            </div> -->
+
+            <!-- <div class="row">
+
+                 <div class="col-sm-1">
+                    &nbsp;
+                </div>
+
+                <div class="col-sm-2">
+                    &nbsp;
+                </div>  -->
+
+
+                <!-- <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="https://zwvews.github.io/images/zhuweiphoto.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="https://zwvews.github.io/">Wei Zhu </a></h4>
+                        <p class="text-muted">PhD Student, University of Rochester</p>
+                    </div>
+                </div> -->
+
+
+
+
+
+                <!-- <div class="col-sm-2">
+                    &nbsp;
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="https://publish.illinois.edu/yaozhou3/files/2021/01/avatar-300x300.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="https://publish.illinois.edu/yaozhou3/">Yao Zhou </a></h4>
+                        <p class="text-muted">Machine Learning Engineer, Instacart</p>
+                    </div>
+                </div> -->
+
+
+
+
+
+
+                 <!-- <div class="col-sm-1">
+                    &nbsp;
+                </div>
+                <div class="col-sm-2">
+                    &nbsp;
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="https://www.cs.uga.edu/sites/default/files/styles/square_400x400/public/cmiao_1.jpg?itok=Vj86_6nk" class="img-responsive img-circle" alt="">
+                        <h4><a href="https://www.cs.uga.edu/directory/people/chenglin-miao">Chenglin Miao </a></h4>
+                        <p class="text-muted">Assistant Professor, University of Georgia</p>
+                    </div>
+                </div> -->
+
+
+
+
+<!--
+                 <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="https://www.personal.psu.edu/jzc5917/pic_new.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="https://www.personal.psu.edu/jzc5917/">Jinghui Chen </a></h4>
+                        <p class="text-muted">Assistant Professor, College of Information Sciences and Technology, Pennsylvania State University.</p>
+                    </div>
+                </div>  -->
+
+                <!-- <div class="col-sm-1">
+                    &nbsp;
+                </div> -->
+            <!-- </div> -->
+
+
+
+            <!-- <div class="row">
+
+                <div class="col-sm-1">
+                   &nbsp;
+               </div>
+
+               <div class="col-sm-2">
+                   &nbsp;
+               </div>
+
+            </div> -->
+               <!-- <div class="col-sm-2">
+                   <div class="team-member">
+                       <img src="https://www.stonybrook.edu/commcms/ams/people/_faculty_profiles/_images/Wei%20Zhu%20Web%20Photo.jpg" class="img-responsive img-circle" alt="">
+                       <h4><a href="https://www.stonybrook.edu/commcms/ams/people/_faculty_profiles/zhu.php">Wei Zhu </a></h4>
+                       <p class="text-muted">PhD Student, University of Rochester</p>
+                   </div>
+               </div>
+
+
+
+
+
+               <div class="col-sm-2">
+                   &nbsp;
+               </div>
+
+               <div class="col-sm-2">
+                   <div class="team-member">
+                       <img src="https://publish.illinois.edu/yaozhou3/files/2021/01/avatar-300x300.jpg" class="img-responsive img-circle" alt="">
+                       <h4><a href="https://publish.illinois.edu/yaozhou3/">Yao Zhou </a></h4>
+                       <p class="text-muted">Machine Learning Engineer, Instacart</p>
+                   </div>
+               </div> -->
+
+
+
+
+
+
+               <!-- <div class="col-sm-1">
+                   &nbsp;
+               </div>
+               <div class="col-sm-2">
+                   &nbsp;
+               </div>
+
+                <div class="col-sm-2">
+                   <div class="team-member">
+                       <img src="https://www.cs.uga.edu/sites/default/files/styles/square_400x400/public/cmiao_1.jpg?itok=Vj86_6nk" class="img-responsive img-circle" alt="">
+                       <h4><a href="https://www.cs.uga.edu/directory/people/chenglin-miao">Chenglin Miao </a></h4>
+                       <p class="text-muted">Assistant Professor, Department of Computer Science, University of Georgia</p>
+                   </div>
+               </div> -->
+
+
+
+
+
+               <!-- <div class="col-sm-2">
+                   <div class="team-member">
+                       <img src="https://www.personal.psu.edu/jzc5917/pic_new.jpg" class="img-responsive img-circle" alt="">
+                       <h4><a href="https://www.personal.psu.edu/jzc5917/">Jinghui Chen </a></h4>
+                       <p class="text-muted">Assistant Professor,  Pennsylvania State University.</p>
+                   </div>
+               </div>
+
+               <div class="col-sm-1">
+                   &nbsp;
+               </div>
+           </div> -->
+
+
+        </div>
+    </section>
+
+
+    <section id="program_committee">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Program Committee</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <ul class="large" style="margin-left:100px;">
+                        <li>Dr. Abhishek Mukherji, Accenture Inc </li>
+                        <li>Dr. Chen Luo, Amazon</li>
+                        <li>Dr. Chuxu Zhang, Brandeis University</li>
+                        <li>Dr. Derek Aguiar, University of Connecticut</li>
+                        <li>Dr. Jiayu Zhou, Michigan State University</li>
+                        <li>Dr. Jingchao Ni, NEC Laboratories America, Inc.</li>
+                        <li>Dr. John Paparrizos, University of Chicago</li>
+                        <li>Dr. Paul Boniol, Université de Paris</li>
+                        <li>Dr. Qingsong Wen, Alibaba DAMO Academy</li>
+                        <li>Dr. Shuochao Yao, George Mason University</li>
+                        <li>Dr. Suining He, University of Connecticut</li>
+                        <li>Dr. Wei Zhu, University of Rochester</li>
+                        <li>Dr. Yuncong Chen, NEC Laboratories America, Inc.</li>
+                        <li>Dr. Xingjian Shi, HKUST</li>
+                        <li>Mr. Yushan Jiang, University of Connecticut</li>
+                        <li>Dr. Zhengping Che, Midea Group</li>
+                        <li>Dr. Zhengzhang Chen, NEC Laboratories America, Inc.</li>
+                    
+
+
+
+
+
+
+                    </ul>
+                </div>
+                <div class="col"></div>
+            </div>
+
+        <!-- </div>
+        <div class="col-lg-12 text-center" style="padding-bottom: 20px;">
+        <h3 class="section-subheading text-muted">Contact with us: <a href="mailto:fl4pwsdm@gmail.com">fl4pwsdm@gmail.com</a></h3-->
+        
+    </section>
+
+
+    <!-- jQuery -->
+    <script src="./js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="./js/jquery.easing.min.js"></script>
+    <script src="./js/classie.js"></script>
+    <script src="./js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="./js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="./js/agency.js"></script>
+
+
+
+
+</body></html>
+
