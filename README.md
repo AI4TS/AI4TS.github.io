@@ -1,3 +1,3 @@
-## Welcome to AI4TS-IJCAI 22 Pages! 
+## Welcome to AI4TS-IJCAI Pages! 
 
 
