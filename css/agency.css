@@ -334,9 +334,9 @@ header .intro-text .intro-heading {
     }
 }
 
-header_1 {
+header_3 {
     height:600px;
-    background-image: url(../img/Ao_men.jpg);
+    background-image: url(../img/vancouver.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
@@ -346,12 +346,12 @@ header_1 {
     text-align: center;
     color: #333;
 }
-header_1 .intro-text {
+header_3 .intro-text {
     padding-top: 130px;
     padding-bottom: 50px
 }
 
-header_1 .intro-text .intro-lead-in {
+header_3 .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 12px;
@@ -359,7 +359,7 @@ header_1 .intro-text .intro-lead-in {
     margin-bottom: 20px
 }
 
-header_1 .intro-text .intro-heading {
+header_3 .intro-text .intro-heading {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 1000;
@@ -369,18 +369,18 @@ header_1 .intro-text .intro-heading {
 }
  
 @media (min-width:500px) {
-    header_1 .intro-text {
+    header_3 .intro-text {
         padding-top: 130px;
         padding-bottom: 50px
     }
-    header_1 .intro-text .intro-lead-in {
+    header_3 .intro-text .intro-lead-in {
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: italic;
         font-size: 24px;
         line-height: 25px;
         margin-bottom: 20px
     }
-    header_1 .intro-text .intro-heading {
+    header_3 .intro-text .intro-heading {
         font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         font-weight: 700;
@@ -388,20 +388,90 @@ header_1 .intro-text .intro-heading {
         line-height: 40px;
         margin-bottom: 20px
     }
-    header_1 .intro-heading-large{
+    header_3 .intro-heading-large{
         font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         font-weight: 700;
         font-size: 80px;
         line-height: 40px;
     }
-    header_1 .intro-heading-welcome{
+    header_3 .intro-heading-welcome{
         font-family: Brush Script MT, Brush Script Std, cursive;
         font-weight: 100;
         font-size: 80px;
         line-height: 40px;
     }
 }
+header_4 {
+    height:600px;
+    background-image: url(../img/houston.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: #333;
+}
+header_4 .intro-text {
+    padding-top: 130px;
+    padding-bottom: 50px
+}
+
+header_4 .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 20px
+}
+
+header_4 .intro-text .intro-heading {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 20px
+}
+ 
+@media (min-width:500px) {
+    header_4 .intro-text {
+        padding-top: 130px;
+        padding-bottom: 50px
+    }
+    header_4 .intro-text .intro-lead-in {
+        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-style: italic;
+        font-size: 24px;
+        line-height: 25px;
+        margin-bottom: 20px
+    }
+    header_4 .intro-text .intro-heading {
+        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 40px;
+        margin-bottom: 20px
+    }
+    header_4 .intro-heading-large{
+        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 40px;
+    }
+    header_4 .intro-heading-welcome{
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        font-weight: 100;
+        font-size: 80px;
+        line-height: 40px;
+    }
+}
+
+
 header_2 {
     height:600px;
     background-image: url(../img/Shang_hai.jpg);
