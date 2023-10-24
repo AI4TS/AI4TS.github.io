@@ -336,7 +336,7 @@ header .intro-text .intro-heading {
 
 header_3 {
     height:600px;
-    background-image: url(/Users/qianyingren/Documents/GitHub/AI4TS.github.io/AI4TS.github_1.io/AI4TS.github.io/img/vancouver.jpg);
+    background-image: url(../img/vancouver.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
