@@ -610,6 +610,76 @@ header_5 .intro-text .intro-heading {
         line-height: 40px;
     }
 }
+
+header_6 {
+    height:600px;
+    background-image: url(../img/Philadelphia.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: #333;
+}
+header_6 .intro-text {
+    padding-top: 130px;
+    padding-bottom: 50px
+}
+
+header_6 .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 20px
+}
+
+header_6 .intro-text .intro-heading {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 20px
+}
+
+ 
+@media (min-width:500px) {
+    header_6 .intro-text {
+        padding-top: 130px;
+        padding-bottom: 50px
+    }
+    header_6 .intro-text .intro-lead-in {
+        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-style: italic;
+        font-size: 24px;
+        line-height: 25px;
+        margin-bottom: 20px
+    }
+    header_6 .intro-text .intro-heading {
+        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 40px;
+        margin-bottom: 20px
+    }
+    header_6 .intro-heading-large{
+        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 40px;
+    }
+    header_6 .intro-heading-welcome{
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        font-weight: 100;
+        font-size: 80px;
+        line-height: 40px;
+    }
+}
 section {
     padding: 100px 0
 }
