@@ -546,7 +546,7 @@ header_4 .intro-text .intro-heading {
    
 header_icdm {
     height:600px;
-    background-image: url(../img/dc1.jpg);
+    background-image: url(https://www3.cs.stonybrook.edu/~icdm2025/images/dc1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
