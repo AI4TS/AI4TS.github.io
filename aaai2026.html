@@ -380,7 +380,7 @@
 
     
 
-    <!-- section id="Speakers" >
+    <section id="Speakers" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -391,38 +391,41 @@
             <div class="row speakers">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <a href="https://people.cs.vt.edu/~ctlu/" target="_blank">
-                            <img src="./img/ctlu-Image.jpg" style="height: 200px; width:200px;" class="img-responsive img-circle">
+                        <a href="https://www.comp.nus.edu.sg/~atung/" target="_blank">
+                            <img src="./img/atung.jpg" style="height: 200px; width:200px;" class="img-responsive img-circle">
                         </a>
-                        <h4><a href="https://people.cs.vt.edu/~ctlu/" target="_blank">Prof. Chang-Tien Lu</a></h4>
-                        <p class="text-muted">ACM Distinguished Scientist, IEEE Fellow <br> Professor, Virginia Tech </p>
+                        <h4><a href="https://www.comp.nus.edu.sg/~atung/" target="_blank">Prof. Anthony K. H. TUNG</a></h4>
+                        <p class="text-muted">Professor<br> National University of Sinapore </p>
                     </div>
                 </div>
                  <div class="col-sm-8 text-justify ">
-                    <h3>Title: AI-Driven Forecasting: Harnessing Social Media for Event and Epidemic Prediction
+                    <h3>Title: Being Small in the Era of Large Models: Enabling Prudent AI with Lightweight, Just-in-Time AI Boxes
                     </h3>
                     <p class="text-muted" style="font-size: 16px;">
-                        Social media data offers a powerful tool for predicting and responding to global challenges. This talk explores AI-driven techniques for forecasting societal events and epidemics. I will introduce an automated system that leverages time-dependent patterns in open-source data from platforms like Twitter, blogs, and news articles to predict societal disruptions such as natural disasters and public demonstrations. Additionally, I will present SimNest, a deep learning framework that integrates computational epidemiology with social media data for real-time outbreak monitoring. Lastly, I will discuss a multi-task learning model that enhances event forecasting across regions, addressing data imbalances and geographic variations. These approaches demonstrate how AI and social media analytics enhance prediction accuracy, support timely interventions, and strengthen crisis preparedness.
-                </div>
+                    AI discourse is dominated by large foundation models, yet many of the most operationally critical deployments remain fundamentally time-series problems: multivariate sensor streams, equipment telemetry, longitudinal logs, and financial/health monitoring data. These settings are defined by rare, fragmented events (the failures we care about happen infrequently), stringent latency requirements (detection must be early enough to prevent damage), and privacy and deployment constraints that limit centralized training and cloud-only inference. This keynote advocates Prudent AI for Time Series: right-sized, lightweight, and transparent methods that can be deployed broadly and maintained by lean teams—without sacrificing reliability.
+
+                    I will present a set of practical methodologies and systems spanning the time-series lifecycle: (i) correlation-graph-based early anomaly detection (CAD/EADS), which models multivariate time series as evolving sensor correlation graphs and triggers alerts when correlation structures shift—often earlier than value-threshold alarms; (ii) controllable time-series generation (CTS) to augment scarce anomaly classes and enable simulation when labeled rare events are limited; and (iii) benchmarks and decision-support tooling (TSGBench/CTBench, TSGAssist) that make model selection and evaluation reproducible and accessible. I will conclude with a deployment perspective: plug-and-play “AI boxes” for on-edge time-series monitoring and an “AI-box factory” vision for modular orchestration, governance, and lifecycle oversight—bringing trustworthy time-series AI from research into real operations.
+         </div>
             </div> 
 
 
             <div class="row speakers">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <a href="https://anindya.umbc.edu/" target="_blank">
-                            <img src="./img/AnindyaRoy.jpg" style="height: 200px; width:200px;" class="img-responsive img-circle">
+                        <a href="https://research.ibm.com/people/nianjun-zhou" target="_blank">
+                            <img src="./img/NianjunZhou.png" style="height: 200px; width:200px;" class="img-responsive img-circle">
                         </a>
-                        <h4><a href="https://anindya.umbc.edu/" target="_blank">Prof. Anindya Roy</a></h4>
-                        <p class="text-muted">Research Staff, United States Census Bureau<br> Professor, University of Maryland Baltimore County 
-Baltimore </p>
+                        <h4><a href="https://research.ibm.com/people/nianjun-zhou" target="_blank">Dr. Nianjun Zhou</a></h4>
+                        <p class="text-muted">Senior Research Staff Member<br> IBM T.J. Watson Research Center </p>
                     </div>
                 </div>
                  <div class="col-sm-8 text-justify ">
-                    <h3>Title: Utility Preserving Privacy Mechanisms for Time Series Data Release
+                    <h3>Title: AssetOpsBench: Benchmarking Agentic AI for Time Series and Event-Driven Industrial Asset Operations
                     </h3>
                     <p class="text-muted" style="font-size: 16px;">
-                        Private data release mechanisms, particularly those satisfying differential privacy,  have undergone evolutionary changes in recent years. However,  there are no widely accepted privacy mechanisms for releasing dependent data, such as time series data. We will begin with a short survey of the existing privacy mechanisms for time series and discuss the need to go beyond what is available. Based on a desideratum that balances the nuances of traditional statistical time series analysis and the demands of modern data privacy mechanisms, a formal privacy-utility framework will be presented for time series data. Theoretical and operational characteristics of the proposed framework will be studied and possible future directions will be discussed.
+                        Time series and event data lie at the core of industrial asset lifecycle management, underpinning condition monitoring, anomaly detection, failure prediction, and maintenance decision making. While traditional time series models address forecasting or detection in isolation, real-world operations require integrated reasoning across heterogeneous temporal signals, events, and actions. Recent advances in large language models enable a new class of AI agents that can reason over time series, contextual knowledge, and operational constraints to drive end-to-end workflows.
+
+                        This talk introduces AssetOpsBench, a unified benchmark and evaluation framework for agentic AI in time series and event-driven industrial applications. AssetOpsBench combines real-world multivariate time series data, events from alerts and work orders, and standardized failure taxonomies with scenario-driven tasks such as anomaly diagnosis, predictive maintenance, and intervention planning. It provides a systematic evaluation of LLM performance dimensions to assess agent capabilities in time series perception, temporal reasoning, decision making, and action execution. AssetOpsBench offers a reproducible foundation for advancing trustworthy, scalable AI agents in conditional asset maintenance and broader time series–centric applications in other domains.
                 </div>
             </div> 
 
@@ -430,22 +433,22 @@ Baltimore </p>
             <div class="row speakers">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <a href="https://sites.google.com/site/qingsongwen8/" target="_blank">
-                            <img src="./img/Qingsong_Wen.jpg" style="height: 200px; width:200px;" class="img-responsive img-circle">
+                        <a href="https://dluoedu.github.io/" target="_blank">
+                            <img src="./img/dongshengluo.jpeg" style="height: 200px; width:200px;" class="img-responsive img-circle">
                         </a>
-                        <h4><a href="https://sites.google.com/site/qingsongwen8/" target="_blank">Dr. Qingsong Wen</a></h4>
-                        <p class="text-muted">Head of AI & Chief Scientist <br> Squirrel Ai Learning </p>
+                        <h4><a href="https://dluoedu.github.io/" target="_blank">Prof. Dongsheng Luo</a></h4>
+                        <p class="text-muted">Assistant Professor <br> Florida International University </p>
                     </div>
                 </div>
                  <div class="col-sm-8 text-justify ">
-                    <h3>Title: AI for Time Series Analysis: from Transformer to LLM and Foundation Models
+                    <h3>Title: Explainable Time Series Learning: Methods and Evaluation
                     </h3>
                     <p class="text-muted" style="font-size: 16px;">
-                        Time series analysis is ubiquitous, serving as a cornerstone for extracting valuable insights across a myriad of real-world applications. Recent advancements in Transformer, Large Language Models (LLMs), and Foundation Models (FMs) have fundamentally reshaped the paradigm of model design for time series analysis, significantly boosting performance in various downstream tasks. In this talk, I will first provide an up-to-date overview of this exciting area, highlighting how Transformer, LLMs, and FMs are being leveraged to address the unique challenges of time series data. Then, I will present our recent research on these models to highlight their roles in advancing time series modeling. By consolidating the latest AI advancements for time series analysis, this talk aims to illuminate the transformative potential of these models and identify promising avenues for future research exploration.
-                </div>
+                     Time series models often function as black boxes, limiting scientists' ability to understand underlying temporal mechanisms. My research addresses this gap by building trustworthy AI systems with explainability at their core. This talk will cover methods and evaluation for explainable time series learning, including TimeX++, which learns time series explanations through information bottleneck principles, and F-Fidelity, a robust framework for faithfulness evaluation. I will also discuss future directions such as explanation-assisted learning and human-AI interaction.      
+                 </div>
             </div> 
 
-
+    <!-- 
              <div class="row speakers">
                 <div class="col-sm-4">
                     <div class="team-member">
@@ -483,17 +486,11 @@ Baltimore </p>
                 </div>
             </div> 
 
-
-
-
-
-
-
-            
+     -->    
 
 
     </section>
-     -->
+
             
                 
 
